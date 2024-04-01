@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+
+  mysql-container:
+    image: mysql:5.7.43
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+
+  front:
+    image: muqeeth23/phpproject:latest
+    restart: always
+    ports:
+      - 8080
