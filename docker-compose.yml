@@ -13,4 +13,4 @@ services:
     image: muqeeth23/phpproject:latest
     restart: always
     ports:
-      - 8080
+      - 80
