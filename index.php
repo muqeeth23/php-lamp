@@ -57,7 +57,7 @@ require_once ("php/operation.php");
             <table class="table table-striped table-dark">
                 <thead class="thead-dark">
                     <tr>
-                        <th>ID</th>
+                        <th>Serial Number</th>
                         <th>Book Name</th>
                         <th>Publisher</th>
                         <th>Book Price</th>
