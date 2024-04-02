@@ -57,10 +57,10 @@ require_once ("php/operation.php");
             <table class="table table-striped table-dark">
                 <thead class="thead-dark">
                     <tr>
-                        <th>IDENTIFAICATION</th>
+                        <th>ID</th>
                         <th>Book Name</th>
-                        <th>Author</th>
-                        <th>Book cost</th>
+                        <th>Publisher</th>
+                        <th>Book Price</th>
                         <th>Edit</th>
                     </tr>
                 </thead>
